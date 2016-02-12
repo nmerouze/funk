@@ -1,0 +1,23 @@
+{
+  "name": "funk",
+  "version": "0.1.0",
+  "description": "Create micro-services by chaining pre-defined functions.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha test/**/*-test.js"
+  },
+  "author": "Nicolas Merouze <nicolas@merouze.me>",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "bluebird": "^3.2.2",
+    "csv": "^0.4.6",
+    "express": "^4.13.4",
+    "later": "^1.2.0",
+    "slack": "^5.3.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "supertest": "^1.1.0"
+  }
+}
